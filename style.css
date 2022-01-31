@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    min-height: 25px;
+    color: white;
+    margin: 0 auto;
+    padding: .5rem 0; 
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 60%; 
+    min-height: 25px;
+    margin: 0 auto;
+}
+
+main {
+    min-height: 200px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+aside {
+    margin-top: 2%;
+    min-height: 100px;
+    flex: 1;
+    margin-bottom: 5%;
+    display:flex
+}
+
+.flexed2{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.flexed1 {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:1.5rem
+} 
+
+.left-nav {
+    min-height: 25px;
+}
+
+header ul {
+    list-style: none;
+}
+
+.card {
+    border: 2px solid grey;
+    min-height: 100px;
+}
+
+#card1 {
+    background-color: rgb(61, 152, 212);
+    position:inherit;
+}
+
+#card {
+    background-color: rgb(65, 69, 70);
+    display:flex;
+    padding: 4%;
+}
+
+.education {
+    
+    min-height: 100px;
+    margin-top: 5%;
+    border: 2px grey solid;
+}
+
+button {
+    padding: .5%;
+    background-color: rgb(142, 164, 197);
+    color: white;
+}
+
+.contacts {
+    display: flex;
+    padding: 2%;
+    background-color: white;
+}
+
+.top-contacts {
+    display: flex;
+    padding: 2%;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+
+.connections {
+    border: 1px grey solid;
+    
+}
+
+.connection-request {
+    margin-bottom:5%;
+    border: 2px grey solid;
+}
+
+img {
+    width: 15px;
+}
+
+#jane {
+    width: 35px;
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 2%;
+}
+
+h2 {
+    margin-bottom: 2%;
+}
+
+p {
+    margin-bottom: 2%;
+}
+
+.edu {
+    padding: 3%;
+}
