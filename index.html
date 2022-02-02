@@ -31,13 +31,13 @@
             <header id="card1"></header>
           </div>
           <img src="./images/icons/user-circle.png" alt="" id="jane" />
-          <h1>Jane Doe</h1>
+          <h1 id="first">Jane Doe</h1>
           <h2><img src="./images/icons/map-marker.png" alt="" /> Seattle</h2>
           <p>
             Developer | Engineer | Problem Solver<br />Master of shadows and the
             Internet
           </p>
-          <p><img src="./images/icons/gear.png" alt="" /> edit profile</p>
+          <p onclick="change()" ><img src="./images/icons/gear.png" alt="" /> edit profile</p>
         </div>
 
         <div class="education">
@@ -60,17 +60,17 @@
             <p>Connection Request</p>
           </header>
           <div class="connection-request">
-            <div class="top-contacts">
+            <div class="top-contacts" onclick="remove1(this)">
               <img src="./images/icons/user-circle.png" alt="" />
               <p>Todd E</p>
               <img src="./images/icons/accept-circle.png" alt="" />
               <img src="./images/icons/close-circle.png" alt="" />
             </div>
-            <div class="top-contacts">
+            <div class="top-contacts" onclick="remove1(this)"  >
               <img src="./images/icons/user-circle.png" alt="" />
               <p>Phil K</p>
               <img src="./images/icons/accept-circle.png" alt="" />
-              <img src="./images/icons/close-circle.png" alt="" />
+              <img src="./images/icons/close-circle.png" alt=""  />
             </div>
           </div>
           <div class="connections">
@@ -99,5 +99,6 @@
       </aside>
       <!--Aside End-->
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
